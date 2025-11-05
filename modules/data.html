@@ -51,12 +51,14 @@
       </aside>
 
       <h2>Overview</h2>
+
       <p>This short lesson is intended for graduate and advanced undergraduate students undertaking original research projects. After completing the 30-minute lesson, you will be able to:</p>
-      <ul>
-        <li>Format raw research data in an Excel spreadsheet for efficient analysis</li>
-        <li>Run basic descriptive statistics in Excel</li>
-        <li>Prepare the document for statistical analysis in the software package PASW</li>
-      </ul>
+        
+        <ul>
+          <li>Format raw research data in an Excel spreadsheet for efficient analysis</li>
+          <li>Run basic descriptive statistics in Excel</li>
+          <li>Prepare the document for statistical analysis in the software package PASW</li>
+        </ul>
 
       <section>
         <h3>Format Data for Analysis</h3>
@@ -65,34 +67,38 @@
            <a href="../assets/downloads/tutorial_spreadsheet.xlsx" download>ToolBox_DataLesson.xls</a>, 
            open it in Excel, and follow along with the lesson.</p>
 
-        <p>In the <em>Raw_Dataset</em> spreadsheet, the name of each variable has been entered in the first row of each column. 
-Follow these steps to prepare your variable names correctly:</p>
+      <p>
+            In the <em>Raw_Dataset</em> spreadsheet, the name of each variable has been entered in the first row of each column. 
+            Follow these steps to prepare your variable names correctly:
+      </p>
 
-<ol>
-  <li>Each variable name must be different from other variable names.</li>
-  <li>The first variable (in column A) is a <strong><span style="color:#1a237e;">unique identifier</span></strong>.</li>
-  <li>Variable names must start with a letter (not numbers or special characters), so change <em>4tutorial_types</em> to <em>tutorial_types</em>.</li>
-  <li>Name variables so that they are intuitive to you. Therefore, change <em>use</em> and <em>useful</em> to <em>perc_ease_of_use</em> and <em>perc_usefulness</em>, respectively.</li>
-  <li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to <em>Perceived Usefulness</em> and Column G refers to <em>Perceived Ease of Use</em>.</li>
-</ol>
+      <ol>
+            <li>Each variable name must be different from other variable names.</li>
+            <li>The first variable (in column A) is a <strong><span style="color:#1a237e;">unique identifier</span></strong>.</li>
+            <li>Variable names must start with a letter (not numbers or special characters), so change <em>4tutorial_types</em> to <em>tutorial_types</em>.</li>
+            <li>Name variables so that they are intuitive to you. Therefore, change <em>use</em> and <em>useful</em> to <em>perc_ease_of_use</em> and <em>perc_usefulness</em>, respectively.</li>
+            <li>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to <em>Perceived Usefulness</em> and Column G refers to <em>Perceived Ease of Use</em>.</li>
+      </ol>
 
 
-        <figure>
+      <figure>
           <img src="../assets/images/datalesson_fig3.png" alt="Excel spreadsheet showing formatted data columns">
           <figcaption>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
-        </figure>
+      </figure>
 
-        <p>Data values, or rows, have been input for each subject in the experiment. 
-Follow these steps to ensure data consistency and clarity:</p>
+        <p>
+          Data values, or rows, have been input for each subject in the experiment. 
+          Follow these steps to ensure data consistency and clarity:
+        </p>
 
-<ol>
-  <li>Decide on input conventions and stick to them. In <em>gender</em>, change the "female" value to "F".</li>
-  <li>Separate data into component values whenever possible by adding new columns. 
-      For example, <em>tasks_completed</em> values (Y/Y/N) can be broken up into three components. 
-      So, add columns <em>task1</em>, <em>task2</em>, and <em>task3</em>, and reformat values appropriately.</li>
-  <li>Double-check to ensure no data entry errors have been made, then delete the old <em>tasks_completed</em> column.</li>
-  <li>Your <em>Raw_Dataset</em> spreadsheet should now look like Figure 2.</li>
-</ol>
+        <ol>
+              <li>Decide on input conventions and stick to them. In <em>gender</em>, change the "female" value to "F".</li>
+              <li>Separate data into component values whenever possible by adding new columns. 
+                     For example, <em>tasks_completed</em> values (Y/Y/N) can be broken up into three components. 
+                      So, add columns <em>task1</em>, <em>task2</em>, and <em>task3</em>, and reformat values appropriately.</li>
+              <li>Double-check to ensure no data entry errors have been made, then delete the old <em>tasks_completed</em> column.</li>
+              <li>Your <em>Raw_Dataset</em> spreadsheet should now look like Figure 2.</li>
+        </ol>
 
 
         <figure>
@@ -101,8 +107,8 @@ Follow these steps to ensure data consistency and clarity:</p>
         </figure>
 
         <p>Replace categorical data values with "0" or "1" (0 = no, 1 = yes) to indicate whether or not the value is represented for the given subject or item. This makes the categorical values 
-  <strong><span style="color:#1a237e;">dichotomous</span></strong>, 
-  which gives the researcher maximum flexibility in testing for relationships or correlations.
+            <strong><span style="color:#1a237e;">dichotomous</span></strong>, 
+            which gives the researcher maximum flexibility in testing for relationships or correlations.
         </p>
 
 
@@ -151,11 +157,11 @@ Follow these steps to ensure data consistency and clarity:</p>
         </p>
         <p>Write down the "input range" (i.e., H2:J26) of the data requiring summary, making sure not to include variable labels</p>
 
-        <ol>
-            <li>Go to <strong>Tools &gt; Add-Ins...</strong> and make sure <strong>Analysis ToolPak</strong> is checked. Click OK.</li>
-            <li>Go to <strong>Tools &gt; Data Analysis</strong> and select <strong>Descriptive Statistics.</strong> Click OK.</li>
-            <li>Enter the input range in the blank and check <strong>Summary Statistics.</strong> Click OK.</li>
-        </ol>
+          <ol>
+              <li>Go to <strong>Tools &gt; Add-Ins...</strong> and make sure <strong>Analysis ToolPak</strong> is checked. Click OK.</li>
+              <li>Go to <strong>Tools &gt; Data Analysis</strong> and select <strong>Descriptive Statistics.</strong> Click OK.</li>
+              <li>Enter the input range in the blank and check <strong>Summary Statistics.</strong> Click OK.</li>
+          </ol>
 
         <p>The descriptive statistics summary will output in a new sheet. Rename this spreadsheet Descriptive_Stats. Label the output according to the variables. 
             For example, Column 1 should be perc_enjoy. Your Descriptive_Stats spreadsheet should now look like Figure 4.
