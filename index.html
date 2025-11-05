@@ -3,75 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Communication</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Research Paper Toolbox - A comprehensive guide for graduate students writing research papers">
+    <title>Research Paper Toolbox | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#topic">Topic</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#data">Data</a></li>
-                <li><a href="#references">References</a></li>
-                <li><a href="#style">Style</a></li>
-                <li><a href="#layout">Layout</a></li>
-                <li><a href="#modality">Modality</a></li>
-                <li><a href="#professionalization">Professionalization</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Research Paper Toolbox</h1>
+            <p class="tagline">Essential resources for graduate student research</p>
+        </div>
     </header>
 
-    <main>
-        <section id="home">
-            <h1>Welcome</h1>
-            <p>Content for home section</p>
+    <nav class="main-nav">
+    <div class="container">
+        <ul>
+            <li><a href="index.html" class="active" aria-current="page">
+                <img src="assets/icons/home.gif" alt="" class="nav-icon">Home
+            </a></li>
+            <li><a href="modules/topic.html">
+                <img src="assets/icons/pencil.gif" alt="" class="nav-icon">Topic
+            </a></li>
+            <li><a href="modules/research.html">
+                <img src="assets/icons/wrench.gif" alt="" class="nav-icon">Research
+            </a></li>
+            <li><a href="modules/data.html">
+                <img src="assets/icons/calc.gif" alt="" class="nav-icon">Data
+            </a></li>
+            <li><a href="modules/references.html">
+                <img src="assets/icons/hammer.gif" alt="" class="nav-icon">References
+            </a></li>
+            <li><a href="modules/style.html">
+                <img src="assets/icons/brush.gif" alt="" class="nav-icon">Style
+            </a></li>
+            <li><a href="modules/layout.html">
+                <img src="assets/icons/ladder.gif" alt="" class="nav-icon">Layout
+            </a></li>
+            <li><a href="modules/modality.html">
+                <img src="assets/icons/shovel.gif" alt="" class="nav-icon">Modality
+            </a></li>
+            <li><a href="modules/professionalization.html">
+                <img src="assets/icons/cutter.gif" alt="" class="nav-icon">Professionalization
+            </a></li>
+            <li><a href="modules/template.html">
+                Module Template
+            </a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <main class="container">
+        <section class="intro">
+            <h2>Welcome</h2>
+            <p>Constructing a research paper is an integral part of being a graduate student in the Information Architecture, Technical Communication and Information Design, and Technical Communication programs at IIT.</p>
+            
+            <p>There is no right or wrong way to put a paper together, but there are a wealth of tools available to make the process efficient and manageable. In this course, you will find an explanation of the basic steps involved in writing a research paper, as well as a selection of tools that complement certain steps.</p>
+            
+            <p>If you are new to writing research papers, this course will guide you through each of the basic steps; even if you are an experienced writer, you can still refresh your knowledge with one or more lessons. To begin, choose a lesson by clicking one of the modules below.</p>
         </section>
 
-        <section id="topic">
-            <h2>Topic</h2>
-            <p>Content for topic section</p>
-        </section>
+        <section class="modules-overview">
+            <h2>Courses Available Right Now !</h2>
+            <div class="module-grid">
+                <article class="module-card">
+                    <div class="module-icon">
+                        <img src="assets/icons/wrench.gif" alt="">
+                    </div>
+                    <h3>Research</h3>
+                    <p>Learn how to acquire research resources through university, web-based, and local library services.</p>
+                    <a href="modules/research.html" class="btn">Start the Module</a>
+                </article>
 
-        <section id="research">
-            <h2>Research</h2>
-            <p>Content for research section</p>
-        </section>
+                <article class="module-card">
+                    <div class="module-icon">
+                        <img src="assets/icons/calc.gif" alt="">
+                    </div>
+                    <h3>Data</h3>
+                    <p>Learn how to organize and analyze research data using Excel and statistical software.</p>
+                    <a href="modules/data.html" class="btn">Start the Module</a>
+                </article>
 
-        <section id="data">
-            <h2>Data</h2>
-            <p>Content for data section</p>
-        </section>
-
-        <section id="references">
-            <h2>References</h2>
-            <p>Content for references section</p>
-        </section>
-
-        <section id="style">
-            <h2>Style</h2>
-            <p>Content for style section</p>
-        </section>
-
-        <section id="layout">
-            <h2>Layout</h2>
-            <p>Content for layout section</p>
-        </section>
-
-        <section id="modality">
-            <h2>Modality</h2>
-            <p>Content for modality section</p>
-        </section>
-
-        <section id="professionalization">
-            <h2>Professionalization</h2>
-            <p>Content for professionalization section</p>
+                <article class="module-card placeholder">
+                    <div class="module-icon">
+                        <img src="assets/icons/question_nomargin.gif" alt="">
+                    </div>
+                    <h3>Additional Modules</h3>
+                    <p>Additional modules on Topic, References, Style, Layout, Modality, and Professionalization are coming soon.</p>
+                    <a href="modules/template.html" class="btn btn-secondary">View Template</a>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Technical Communication</p>
+        <div class="container">
+            <p>&copy; 2025 Research Paper Toolbox. Created by Edilson Alberto for COM 421 Fall 2025.</p>
+        </div>
     </footer>
 </body>
 </html>
