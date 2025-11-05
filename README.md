@@ -1,6 +1,6 @@
 # Research Paper Toolbox  
 COM 421 Technical Communication Project – Fall 2025
-Created by Edilson Alberto A20522422
+Edilson Alberto A20522422
 
 ---
 
@@ -12,9 +12,21 @@ This project was developed as part of the **COM 421: Technical Communication** c
 
 ---
 
-🌐 Live Preview
+Live Preview
 If you are viewing this repository online, you can open the project via GitHub Pages once published:
 
-👉 [https://edilsonalberto.github.io/technicalcom/](https://edilsonalberto.github.io/technicalcom/)
+ [https://edilsonalberto.github.io/technicalcom/]
+
+----
+
+Validation
+
+- All HTML pages have been validated through the W3C Markup Validator.
+
+- CSS follows standard syntax and uses semantic class naming.
+
+- Accessibility was verified through Lighthouse audit in Chrome DevTools.
+
+
 
 
